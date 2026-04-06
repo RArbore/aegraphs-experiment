@@ -1,0 +1,10 @@
+[package]
+name = "tiny-isle-proc"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "tiny_isle_proc"
+path = "src/lib.rs"
+proc-macro = true
+

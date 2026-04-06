@@ -1,0 +1,11 @@
+[package]
+name = "aegraph"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "aegraph"
+path = "src/lib.rs"
+
+[dependencies]
+rustc-hash = "*"
